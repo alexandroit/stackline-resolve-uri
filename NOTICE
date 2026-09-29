@@ -1,0 +1,4 @@
+This is an independent maintenance fork of @jridgewell/resolve-uri 3.1.2.
+Upstream source commit: caa7a299d6c688570773c81732f77d3c7035ded6
+The upstream license and author notices are retained unchanged.
+Stackline changes are documented in CHANGELOG.md. No upstream endorsement is implied.

@@ -1,0 +1,3 @@
+var assert=require('assert');var path=require('path');var root=process.env.STACKLINE_TEST_PACKAGE||path.resolve(__dirname,'..');var resolve=require(root);
+[['foo','https://example.test/a/','https://example.test/a/foo'],['../x','https://example.test/a/b','https://example.test/x'],['?q','https://example.test/a?old#hash','https://example.test/a?q'],['#h','https://example.test/a?q','https://example.test/a?q#h'],['//cdn.test/x','https://example.test/','https://cdn.test/x'],['a b','file:///tmp/source.js','file:///tmp/a b'],['a%20b','file:///tmp/source.js','file:///tmp/a%20b'],['../x','a/b','x']].forEach(function(c){assert.strictEqual(resolve(c[0],c[1]),c[2]);});
+console.log('URI hierarchy, query, hash, protocol-relative and encoded/unencoded contracts passed.');

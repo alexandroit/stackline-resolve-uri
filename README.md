@@ -1,3 +1,19 @@
+# @stackline/resolve-uri
+
+Independent maintenance fork of `@jridgewell/resolve-uri@3.1.2`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/resolve-uri
+# Preserve existing imports with an npm alias:
+npm install @jridgewell/resolve-uri@npm:@stackline/resolve-uri@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-resolve-uri/issues) · [npm](https://www.npmjs.com/package/@stackline/resolve-uri).
+
+## Upstream documentation
+
 # @jridgewell/resolve-uri
 
 > Resolve a URI relative to an optional base URI
