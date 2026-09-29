@@ -4,7 +4,7 @@
     {
       "name": "@stackline/resolve-uri",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -21,8 +21,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/resolve-uri/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/resolve-uri/-/resolve-uri-1.0.0.tgz",
       "baselineIntegrity": "sha512-uSd3miW1+FQOcjCMWqvtAW37pGG+POmOSDQ/zEWQnXfdtClwmodaC5qbAFRkBr22xxqzi01rCJrSHEB9LOQzTg==",
-      "expectedSha512": "4cbc909d212708cfc52eec2b9ff409aed0a6273e9eda587074aa7d9a8d02fd43a04975198079c6d0567bb36e7782314d86ac133ec8f9844686b9a7fb709639c6",
-      "tag": "docs-stackline-resolve-uri-v1.0.1"
+      "expectedSha512": "6f50a573eb84ddfc07b67958251787b0416044400846b4bbf332f3f58366632db8fe45c70b89e836777824c94d40e67122b9e38b602dd491a9dd83ff6c265971",
+      "tag": "docs-stackline-resolve-uri-v1.0.2"
     }
   ]
 }

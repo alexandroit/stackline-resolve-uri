@@ -1,6 +1,6 @@
 {
   "name": "@stackline/resolve-uri",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resolve a URI relative to an optional base URI",
   "keywords": [
     "stackline",
