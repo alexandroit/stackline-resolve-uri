@@ -1,13 +1,17 @@
 {
   "name": "@stackline/resolve-uri",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolve a URI relative to an optional base URI",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "resolve-uri",
+    "typescript",
+    "nodejs",
     "resolve",
     "uri",
     "url",
     "path",
-    "stackline",
     "maintenance-fork"
   ],
   "author": "Justin Ridgewell <justin@ridgewell.name>",
@@ -59,7 +63,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-resolve-uri/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-resolve-uri#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/resolve-uri/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
